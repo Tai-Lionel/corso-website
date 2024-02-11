@@ -1,0 +1,24 @@
+// .hero {
+//     background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/header-background.jpg') center center no-repeat;
+//     background-size: cover;
+// }
+
+.hero {
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('/images/header-background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+nav {
+    transition: background-color 0.5s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.invitation-container {
+    min-height: 400px;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/invitation-background.jpg') center center no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,29 @@
+// Font
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+$primary: #f8b547;
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 4.5,
+    7: $spacer * 6,
+    8: $spacer * 8,
+    9: $spacer * 10,
+    10: $spacer * 12,
+);
+
+// $container-max-widths: (
+//     sm: 540px,
+//     md: 720px,
+//     lg: 960px,
+//     xl: 1140px,
+//     xxl: 1360px
+// );
+
+@import '../node_modules/bootstrap/scss/bootstrap';
